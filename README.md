@@ -1,4 +1,4 @@
-# Site for Lidia Hus' writing
+# Site for writings by Lidia Hu
 
 ## Getting Started
 

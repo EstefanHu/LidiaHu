@@ -1,12 +1,8 @@
 import Paragraph from './Paragraph';
 
-const STYLES = {
-  margin: '50px 0',
-};
-
 export default function BibleVerse({ entry, verse }: { entry: string; verse: string }) {
   return (
-    <div style={STYLES}>
+    <div className='my-12'>
       <Paragraph>&quot;{entry}&quot;</Paragraph>
       <Paragraph>
         <i>- {verse}</i>

@@ -1,12 +1,3 @@
-const STYLES = {
-  fontSize: '2rem',
-  fontWeight: '600',
-  textTransform: 'capitalize' as 'capitalize',
-  width: '100%',
-  textAlign: 'center' as 'center',
-  marginBottom: '30px',
-};
-
 export default function Title({ children }: { children: React.ReactNode }) {
-  return <h1 style={STYLES}>{children}</h1>;
+  return <h1 className="text-4xl font-bold capitalize w-[100%] text-center mb-8">{children}</h1>;
 }
