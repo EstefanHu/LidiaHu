@@ -19,6 +19,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(),
     },
     {
+      url: "https://lidiahu.com/upside-down-wishes",
+      lastModified: new Date(),
+    },
+    {
       url: "https://lidiahu.com/bio",
       lastModified: new Date(),
     },
