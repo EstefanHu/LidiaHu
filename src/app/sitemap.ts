@@ -1,29 +1,29 @@
-import { MetadataRoute } from 'next';
+import { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
     {
-      url: 'https://lidiahu.com',
+      url: "https://lidiahu.com",
       lastModified: new Date(),
     },
     {
-      url: 'https://lidiahu.com/p',
+      url: "https://lidiahu.com/stories",
       lastModified: new Date(),
     },
     {
-      url: 'https://lidiahu.com/p/extended-peace',
+      url: "https://lidiahu.com/extended-peace",
       lastModified: new Date(),
     },
     {
-      url: 'https://lidiahu.com/p/weathered-basket',
+      url: "https://lidiahu.com/weathered-basket",
       lastModified: new Date(),
     },
     {
-      url: 'https://lidiahu.com/bio',
+      url: "https://lidiahu.com/bio",
       lastModified: new Date(),
     },
     {
-      url: 'https://lidiahu.com/contact',
+      url: "https://lidiahu.com/contact",
       lastModified: new Date(),
     },
   ];

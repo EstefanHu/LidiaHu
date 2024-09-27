@@ -5,8 +5,8 @@ import Title from '@/components/Title';
 export default function Home() {
   return (
     <>
-      <section className='w-screen flex flex-col items-center justify-center px-5 mb-20 mt-20 lg:mb-32'>
-        <h1 className='text-3xl text-center font-bold max-w-4xl md:text-5xl lg:text-8xl'>I will extend peace to her like a river</h1>
+      <section className='flex flex-col items-center justify-center px-5 mb-20 mt-20 md:mb-32'>
+        <h1 className='text-3xl text-center font-bold  md:text-7xl'>I will extend peace to her like a river</h1>
         <p className='mt-5 text-xl'>- Isaiah 66:12</p>
       </section>
 

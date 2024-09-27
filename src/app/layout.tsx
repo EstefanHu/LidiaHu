@@ -11,7 +11,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang='en'>
       <body>
-        <header className='w-screen bg-white flex items-center justify-between px-8 h-16'>
+        <header className='flex items-center justify-between h-16 w-screen max-w-[800px] mx-auto px-3'>
           <Link href='/'>
             <h1 className='2xl font-bold transition-colors hover:accent'>Lidia</h1>
           </Link>
@@ -24,10 +24,17 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           </nav>
         </header>
 
-        <main className='w-screen flex flex-col'>
+        <main className='flex flex-col w-screen max-w-[800px] mx-auto px-3'>
           {children}
         </main>
+
+        <footer className='flex items-center justify-between w-screen max-w-[800px] mx-auto px-3 pb-3 pt-5'>
+          <span>
+          </span>
+
+          <p>@ 2024 Lidia Hu - all rights reserved</p>
+        </footer>
       </body>
-    </html>
+    </html >
   );
 }
