@@ -18,7 +18,7 @@ export default function Home() {
         </Paragraph>
 
         <Paragraph>
-          Keeping watch, Marie, the oldest sister, sat reading on the front porch steps. Without looking up, she said, &quot;Macie, stop twirling. You might make yourself sick like Maggid did last week.&apos;
+          Keeping watch, Marie, the oldest sister, sat reading on the front porch steps. Without looking up, she said, &quot;Macie, stop twirling. You might make yourself sick like Maggie did last week.&quot;
         </Paragraph>
 
         <Paragraph>
