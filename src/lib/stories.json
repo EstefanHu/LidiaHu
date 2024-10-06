@@ -1,19 +1,25 @@
 [
   {
-  "title":"upside down wishes",
-    "description": "add description/synopsis here",
+    "title": "a seven-year-old's confession",
+    "description": "Carmelita confesses through vividly funny stories.",
+    "category": "short story",
+    "date": "Fri Oct 5th"
+  },
+  {
+    "title":"upside down wishes",
+    "description": "Three sisters' wishes become joyful possible miracles.",
     "category": "short story",
     "date": "Tue Sep 24"
   },
   {
     "title": "weathered basket",
-    "description": "add description/synopsis here",
+    "description": "Remembering her mother’s gardening basket, Lensey’s belief in God is restored.",
     "category": "short story",
     "date": "Tue Jul 25"
   },
   {
     "title": "extended peace",
-    "description": "marie goes for a hike",
+    "description": "add description/synopsis here",
     "category": "short story",
     "date": "Mon Jun 19"
   }

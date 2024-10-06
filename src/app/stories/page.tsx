@@ -5,7 +5,7 @@ export default function Stories() {
   return (
     <>
       {stories.map(({ title, description, category, date }) => (
-        <Link key={title} href={`/${title.replaceAll(' ', '-')}`}>
+        <Link key={title} href={`/${title.replaceAll(' ', '-').replaceAll('\'', '')}`}>
           <div className='mb-7 md:mb-10'>
             <p className='my-3 z-1 font-bold text-xs uppercase leading-3 text-text'>
               <span className='text-accent'>{category}</span> - {date}
