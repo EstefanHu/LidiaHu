@@ -1,6 +1,6 @@
 import { Entry } from "./Entry";
 
-export interface IPoem extends Entry {
+export interface IStory extends Entry {
   id: string;
   title: string;
   body: string;

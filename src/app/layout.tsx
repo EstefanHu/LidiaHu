@@ -19,8 +19,18 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <nav className='flex items-center justify-around h-full w-fit'>
             <Link
               href='/stories'
-              className='font-bold uppercase text-xs transition-colors text-accent hover:accent'
+              className='px-3 font-bold uppercase text-xs transition-colors text-accent hover:accent'
             >stories</Link>
+
+            <Link
+              href='/poems'
+              className='px-3 font-bold uppercase text-xs transition-colors text-accent hover:accent'
+            >poems</Link>
+
+            <Link
+              href='/bio'
+              className='px-3 font-bold uppercase text-xs transition-colors text-accent hover:accent'
+            >bio</Link>
           </nav>
         </header>
 

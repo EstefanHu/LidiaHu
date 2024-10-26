@@ -1,32 +1,37 @@
 [
   {
+    "id": "a-little-soldier-girl",
     "title": "a little soldier girl",
-    "description": "A bird brings cheerful music into two hurting hearts.",
+    "body" : "\"What do you think, sweetie? Is this the one?\" Hannah and her four-year-old child stood in front of a bird cage. In silence she prayed. Lord, please help us find the bird my daughter dreamt about. It would be helpful to have a new melody to help us during these challenging mornings.",
     "category": "short story",
-    "date": "Sat Oct 12th"
+    "createdAt": "Sat Oct 12th"
   },
   {
+    "id": "a-seven-year-olds-confession",
     "title": "a seven-year-old's confession",
-    "description": "Carmelita confesses through vividly funny stories.",
+    "body" : "When will the priest come? Carmelita, a seven-year-old, sat on her hands in a confession booth. Her short legs swung as if they kept time. She looked up. This booth is high. A tall skinny man can fit in here, like Uncle Antonio. But it's not very wide. She spread her arms out. I hope they have a bigger one for Aunt Angelina.",
     "category": "short story",
-    "date": "Fri Oct 5th"
+    "createdAt": "Fri Oct 5th"
   },
   {
+    "id": "upside-down-wishes",
     "title":"upside down wishes",
-    "description": "Three sisters' wishes become joyful possible miracles.",
+    "body" : "On a late summer afternoon, three sisters spent time outside their farmhouse while their parents were away. The youngest, who was four years old, twirled and twirled. Her cornflower blue dress puffed into a bell shape as her loose blonde curls waved in the air. She seemed to not have a care in the world.\nKeeping watch, Marie, the oldest sister, sat reading on the front porch steps. Without looking up, she said, \"Macie, stop twirling. You might make yourself sick like Maggid did last week.\n",
     "category": "short story",
-    "date": "Tue Sep 24"
+    "createdAt": "Tue Sep 24"
   },
   {
+    "id": "weathered-basket",
     "title": "weathered basket",
-    "description": "Remembering her mother’s gardening basket, Lensey’s belief in God is restored.",
+    "body" : "With my mom's weathered gardening basket in hand, I stepped out my front door. It had not been used in over ten years. Not since my mom began to lose her sight. The last time I held it was a month after her passing, when I packed her belongings away.",
     "category": "short story",
-    "date": "Tue Jul 25"
+    "createdAt": "Tue Jul 25"
   },
   {
+    "id": "extended-peace",
     "title": "extended peace",
-    "description": "add description/synopsis here",
+    "body" : "Out of breath, Marie hiked up a steep mountain. Bells swayed from her backpack to alarm any bears of her presence. More than a mile into the hike, her lungs began to feel the change of elevation. She placed her hands on her hips. Now why am I doing this at my age? What am I trying to prove? To whom am I trying to show off?",
     "category": "short story",
-    "date": "Mon Jun 19"
+    "createdAt": "Mon Jun 19"
   }
 ]

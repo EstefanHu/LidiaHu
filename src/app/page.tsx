@@ -1,12 +1,16 @@
 import Story from '@/components/Story';
 import Paragraph from '@/components/Paragraph';
 import Title from '@/components/Title';
-import PoemLine from '@/components/PoemLine'
+import Poem from '@/components/Poem'
+import poems from '@/lib/poems.json'
 
 export default function Home() {
+  const ID = 'a-little-soldier-girl'
+  const poem = poems.filter(p => p.id === ID)[0]
+
   return (
     <>
-      <section className='flex flex-col items-center justify-center px-5 mb-20 mt-20 md:mb-24'>
+      <section className='flex flex-col items-center justify-center px-5 mb-16 mt-20'>
         <h1 className='text-3xl text-center font-bold  md:text-4xl'>He put a new song in my mouth, a hymn of praise to our God. Many will see and fear the Lord and put their trust in him.</h1>
         <p className='mt-5 text-xl'>- Psalm 40:3</p>
       </section>
@@ -65,23 +69,7 @@ export default function Home() {
 
         <div className="h-24" />
 
-        <PoemLine>three little birds perched on a limb</PoemLine>
-        <PoemLine>one looking toward you</PoemLine>
-        <PoemLine>another looking towards me</PoemLine>
-        <PoemLine>one is bought to keep company</PoemLine>
-        <PoemLine>the second to sing precious melodies</PoemLine>
-
-        <PoemLine>the third one looked up and asked,</PoemLine>
-        <PoemLine>&quot;why not me?&quot;</PoemLine>
-
-        <PoemLine>three little birds perched on a limb</PoemLine>
-        <PoemLine>one looking toward you</PoemLine>
-        <PoemLine>another looking towards me</PoemLine>
-        <PoemLine>one is bought to keep company</PoemLine>
-        <PoemLine>the second to sing precious melodies</PoemLine>
-
-        <PoemLine>the third one looked up and sang,</PoemLine>
-        <PoemLine>&quot;i&apos;ll sing and keep them company.&quot;</PoemLine>
+        <Poem poem={poem} />
 
         <div className="h-24" />
       </Story>
