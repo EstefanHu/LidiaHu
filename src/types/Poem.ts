@@ -1,6 +1,6 @@
-import { Entry } from "./Entry";
+import { IEntry } from "./Entry";
 
-export interface IPoem extends Entry {
+export interface IPoem extends IEntry {
   id: string;
   title: string;
   body: string;
