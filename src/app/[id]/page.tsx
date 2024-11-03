@@ -1,16 +1,14 @@
 import stories from '@/lib/stories.json'
 import { IStory } from '@/types'
-import Story from '@/components/Story'
+import Page from '@/components/Page'
 import Title from '@/components/Title'
 import Paragraph from '@/components/Paragraph'
 
-const URL = 'an-unexpected-date'
-
-export default function AnUnexpectedDate() {
-  const { title, body, verse } = stories.filter((s: IStory) => s.id === URL)[0]
+export default function Story({ params }: { params: { id: string } }) {
+  const { title, body, verse } = stories.filter((s: IStory) => s.id === params.id)[0]
 
   return (
-    <Story>
+    <Page>
       <Title>{title}</Title>
       {
         body.split('\n').map((line, idx) => {
@@ -30,6 +28,7 @@ export default function AnUnexpectedDate() {
         )
           : null
       }
-    </Story >
+    </Page>
   )
 }
+

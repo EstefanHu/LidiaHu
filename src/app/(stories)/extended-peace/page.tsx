@@ -1,10 +1,10 @@
-import Story from '@/components/Story';
+import Page from '@/components/Page';
 import Paragraph from '@/components/Paragraph';
 import Title from '@/components/Title';
 
 export default function ExtendedPeace() {
   return (
-    <Story>
+    <Page>
       <Title>extended peace</Title>
       <Paragraph>
         Out of breath, Marie hiked up a steep mountain. Bells swayed from her backpack to alarm any bears of her
@@ -210,6 +210,6 @@ export default function ExtendedPeace() {
         They testifies of your peace, your comfort, your goodness. I&apos;m grateful that I&apos;m never alone.
         You&apos;re always with me.&quot;
       </Paragraph>
-    </Story>
+    </Page>
   );
 }

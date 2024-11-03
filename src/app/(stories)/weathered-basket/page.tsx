@@ -1,4 +1,4 @@
-import Story from '@/components/Story';
+import Page from '@/components/Page';
 import Paragraph from '@/components/Paragraph';
 import Title from '@/components/Title';
 import TimeBreak from '@/components/TimeBreak';
@@ -6,7 +6,7 @@ import BibleVerse from '@/components/BibleVerse';
 
 export default function WeatheredBasket() {
   return (
-    <Story>
+    <Page>
       <Title>weathered basket</Title>
       <Paragraph>
         With my mom&apos;s weathered gardening basket in hand, I stepped out my front door. It had not been used in over
@@ -253,6 +253,6 @@ export default function WeatheredBasket() {
         entry='Three things will last forever—faith, hope, and love—and the greatest of these is love.'
         verse='1 Corinthians 13:13 NLT'
       />
-    </Story>
+    </Page>
   );
 }

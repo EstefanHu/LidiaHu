@@ -1,11 +1,11 @@
-import Story from '@/components/Story';
+import Page from '@/components/Page';
 import Paragraph from '@/components/Paragraph';
 import BibleVerse from '@/components/BibleVerse';
 import Title from '@/components/Title';
 
 export default function ExtendedPeace() {
   return (
-    <Story>
+    <Page>
       <Title>A Seven-Year-Old&apos;s Confession</Title>
       <Paragraph><i>When will the priest come?</i> Carmelita, <i>a</i> seven-year-old, sat on her hands in a confession booth. Her short legs swung as if they kept time. She looked up. <i>This booth is high. A tall skinny man can fit in here, like Uncle Antonio. But it&apos;s not very wide.</i> She spread her arms out. <i>I hope they have a bigger one for Aunt Angelina.</i></Paragraph>
       <Paragraph>She leaned to her right, looked through the small window and saw no one.</Paragraph>
@@ -77,6 +77,6 @@ export default function ExtendedPeace() {
         entry='Jesus said, &apos;Let the little children come to me, and do not hinder them, for the kingdom of heaven belongs to such as these.&apos;'
         verse='Matthew 19:14'
       />
-    </Story>
+    </Page>
   )
 }

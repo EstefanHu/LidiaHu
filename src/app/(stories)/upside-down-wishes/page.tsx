@@ -1,11 +1,11 @@
-import Story from '@/components/Story';
+import Page from '@/components/Page';
 import Paragraph from '@/components/Paragraph';
 import Title from '@/components/Title';
 import BibleVerse from '@/components/BibleVerse';
 
 export default function ExtendedPeace() {
   return (
-    <Story>
+    <Page>
       <Title>upside down wishes</Title>
 
       <Paragraph>
@@ -381,6 +381,6 @@ export default function ExtendedPeace() {
         entry='Take delight in the Lord, and he will give you the desires of your heart.'
         verse='Psalm 37:4'
       />
-    </Story>
+    </Page>
   )
 }

@@ -1,5 +1,5 @@
 import Title from '@/components/Title';
-import Story from '@/components/Story';
+import Page from '@/components/Page';
 import Paragraph from '@/components/Paragraph';
 import BibleVerse from '@/components/BibleVerse';
 import Poem from '@/components/Poem';
@@ -10,7 +10,7 @@ export default function ExtendedPeace() {
   const poem = poems.filter(p => p.id === ID)[0]
 
   return (
-    <Story>
+    <Page>
       <Title>A Little Soldier Girl</Title>
       <Paragraph>&quot;What do you think, sweetie? Is this the one?&quot; Hannah and her four-year-old child stood in front of a bird cage. In silence she prayed. Lord, please help us find the bird my daughter dreamt about. It would be helpful to have a new melody to help us during these challenging mornings.</Paragraph>
       <Paragraph>Camile, her little  girl, looked intently at a bird nesting in the corner of a cage. Her golden-brown ponytail was the only thing that announced to the world that she was a girl. She wore desert storm camouflage pants, a coffee-cream t-shirt, small combat boots and her father&apos;s cap which was two sizes too big. The cap went wherever she went. It became her security blanket two weeks ago, after her father gave his life in Iraq.</Paragraph>
@@ -68,6 +68,6 @@ export default function ExtendedPeace() {
       />
 
       <Poem poem={poem} />
-    </Story>
+    </Page>
   )
 }
